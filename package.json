@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "knex": "^2.5.1"
+  },
+  "name": "class_09082023_knex",
+  "description": "knex es un constructos de **consultas SQL** para JavaScript, es una abtracción delgada en la parte superior del controlador. se utiliza en las bases de datosrelacionales (PG, MYSQL, SQL).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex": "knex init",
+    "knex_migrations": "knex migrate:make cliente && knex migrate:make producto"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
